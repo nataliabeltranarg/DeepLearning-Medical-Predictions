@@ -39,9 +39,9 @@ Additional metadata files:
 - **Co-occurring Diseases**: 'MIMIC_diagnoses.csv' 
 
 ## Key Project Sections 
-- **Exploratory data analysis**
-- **Modeling**
-- **Evaluation**
+- Exploratory data analysis
+- Modeling
+- Evaluation
 
 
 ## How to navigate the repository
