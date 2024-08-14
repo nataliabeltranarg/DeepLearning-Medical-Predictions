@@ -34,7 +34,7 @@ Both projects use data from the MIMIC-III database. Each project's dataset is sp
     - Length of Stay Prediction: 'mimic_test_los.csv'
       
 Additional metadata files:
-- **Patient Metadata**: 'mimic_patient_metadata.csv'
+- **Patient Metadata**: 'mimic_patient_metadata.xlsx'
 - **ICD-9 Diagnosis Codes**: 'MIMIC_metadata_diagnose.csv'
 - **Co-occurring Diseases**: 'MIMIC_diagnoses.csv' 
 
