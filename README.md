@@ -34,7 +34,7 @@ Both projects use data from the MIMIC-III database. Each project's dataset is sp
     - Length of Stay Prediction: 'mimic_test_los.csv'
       
 Additional metadata files:
-- **Patient Metadata**: 'mimic_patient_metadata.csv'
+- **Patient Metadata**: 'mimic_patient_metadata.xlsx'
 - **ICD-9 Diagnosis Codes**: 'MIMIC_metadata_diagnose.csv'
 - **Co-occurring Diseases**: 'MIMIC_diagnoses.csv' 
 
@@ -47,10 +47,19 @@ Additional metadata files:
 ## How to navigate the repository
 ```bash 
 ├── 1. Mortality Prediction Project
-│   ├── 
-│   └── 
+│   └── ICU_patient_DEATH.ipynb
 ├── 2. Length of Stay Forecasting Project 
-│   ├── 
-│   └── 
+│   └── ICU_patient_LOS.ipynb
+├── Data
+│   ├── Test
+│   │   ├── death of patients
+│   │   │    └──  mimic_test_death.csv
+│   │   ├── length of stay
+│   │   │    └──  mimic_test_los.csv
+│   ├── Train
+│   │   ├── MIMIC_diagnoses.csv
+│   │   ├── MIMIC_metadata_diagnose.csv
+│   │   ├── mimic_patient_metadata.xlsx
+│   │   └── mimic_train.csv
 └── README.md
-```
+``` 
